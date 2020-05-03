@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.cardRow{
+  margin-top: 10%;
+  padding: 5px;
+}
+
+.btnRow{
+  padding: 5px;
+}

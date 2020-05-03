@@ -3,16 +3,16 @@ import './App.css';
 import Card from './Card/Card';
 import DrawButton from './DrawButton/DrawButton';
 
-import firebase from 'firebase/app';
+// import firebase from 'firebase';
 import 'firebase/database';
 
-import { DB_CONFIG } from './Config/Firebase/db_config';
+import APP_INIT, {} from './Config/Firebase/db_config';
 
 class App extends Component {
   constructor(props){
     super(props);
 
-    this.app = firebase.initializeApp(DB_CONFIG)
+    this.app = APP_INIT
     this.database = this.app.database().ref().child('cards')
     
     // This binding is necessary to make `this` work in the callback
