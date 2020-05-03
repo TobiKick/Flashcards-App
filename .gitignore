@@ -1,7 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules/*
+/node_modules
+/Config/Firebase
 /.pnp
 .pnp.js
 
@@ -10,10 +11,6 @@
 
 # production
 /build
-
-# Config stores very sensitive data!!
-/Config/*
-/Config/Firebase/*
 
 # misc
 .DS_Store
