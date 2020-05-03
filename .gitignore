@@ -24,3 +24,4 @@ yarn-error.log*
 
 # Config stores very sensitive data!!
 /Config/
+/Config/Firebase/
